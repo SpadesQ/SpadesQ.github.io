@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://spadesq.github.io/"/>
+  <link href="http://spadesq.me/"/>
   <updated>2016-08-24T11:49:38.609Z</updated>
-  <id>https://spadesq.github.io/</id>
+  <id>http://spadesq.me/</id>
   
   <author>
     <name>Xing Wu</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>暑假那些事</title>
-    <link href="https://spadesq.github.io/2016/08/24/holiday/"/>
-    <id>https://spadesq.github.io/2016/08/24/holiday/</id>
+    <link href="http://spadesq.me/2016/08/24/holiday/"/>
+    <id>http://spadesq.me/2016/08/24/holiday/</id>
     <published>2016-08-24T11:49:11.049Z</published>
     <updated>2016-08-24T11:49:38.609Z</updated>
     
@@ -42,17 +42,17 @@
     
     </summary>
     
-      <category term="生活" scheme="https://spadesq.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://spadesq.me/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="暑假" scheme="https://spadesq.github.io/tags/%E6%9A%91%E5%81%87/"/>
+      <category term="暑假" scheme="http://spadesq.me/tags/%E6%9A%91%E5%81%87/"/>
     
   </entry>
   
   <entry>
     <title>我是谁？</title>
-    <link href="https://spadesq.github.io/2016/08/18/hello/"/>
-    <id>https://spadesq.github.io/2016/08/18/hello/</id>
+    <link href="http://spadesq.me/2016/08/18/hello/"/>
+    <id>http://spadesq.me/2016/08/18/hello/</id>
     <published>2016-08-17T16:00:00.000Z</published>
     <updated>2016-08-24T11:54:52.090Z</updated>
     
@@ -69,10 +69,10 @@
     
     </summary>
     
-      <category term="介绍" scheme="https://spadesq.github.io/categories/%E4%BB%8B%E7%BB%8D/"/>
+      <category term="介绍" scheme="http://spadesq.me/categories/%E4%BB%8B%E7%BB%8D/"/>
     
     
-      <category term="本人" scheme="https://spadesq.github.io/tags/%E6%9C%AC%E4%BA%BA/"/>
+      <category term="本人" scheme="http://spadesq.me/tags/%E6%9C%AC%E4%BA%BA/"/>
     
   </entry>
   
