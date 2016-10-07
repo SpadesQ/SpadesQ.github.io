@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://spadesq.me/"/>
-  <updated>2016-10-07T05:20:10.268Z</updated>
+  <updated>2016-10-07T06:47:07.435Z</updated>
   <id>http://spadesq.me/</id>
   
   <author>
@@ -16,11 +16,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>impress.js | 代码实现网页PPT</title>
+    <link href="http://spadesq.me/2016/09/01/impress/"/>
+    <id>http://spadesq.me/2016/09/01/impress/</id>
+    <published>2016-08-31T16:00:00.000Z</published>
+    <updated>2016-10-07T06:47:07.435Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>如果你已经厌烦了使用PowerPoint制作PPT，那么impress.js是一个非常好的选择，用它做的PPT更加直观，效果也非常的不错。<br>impress.js 是国外一位开发者受 Prezi 启发，采用 CSS3 与 JavaScript 语言完成的一个可供开发者使用的表现层框架(演示工具)。<br>现在普通开发者可以利用 impress.js 自己开发出类似效果的演示工具，其功能包括画布的无限旋转与缩放，任意角度放置任意大小的文字，CSS3 3D 效果支持等。同时，也支持传统 PowerPoint 形式的幻灯演示。<br>只要你懂一点html/css，改改官网上的样例，就能做出3D酷炫网页PPT。</p>
+<h2 id="浏览器支持"><a href="#浏览器支持" class="headerlink" title="浏览器支持"></a>浏览器支持</h2><p>请使用Google Chrome或Safari (或 Firefox 10 或 IE10)。</p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>需要从网站引入impress.js，当然你也可以下载js文件再引入。<br>下面代码第15行是你要插入的内容。其他直接复制就好了。<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!doctype html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span> /&gt;</span></div><div class="line">　　<span class="tag">&lt;<span class="name">title</span>&gt;</span>大鱼海棠<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">base</span> <span class="attr">href</span>=<span class="string">'http://www.webhek.com/misc-res/impress-js/'</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">"style.css"</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span> <span class="attr">data-rendering</span>=<span class="string">"true"</span> <span class="attr">style</span>=<span class="string">'background:#E7DBCF;'</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"impress"</span> <span class="attr">class</span>=<span class="string">"impress-not-supported"</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"fallback-message"</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">p</span>&gt;</span>Your browser <span class="tag">&lt;<span class="name">b</span>&gt;</span>doesn't support the features required<span class="tag">&lt;/<span class="name">b</span>&gt;</span> by impress.js, so you are presented with a simplified version of this presentation.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">p</span>&gt;</span>For the best experience please use the latest <span class="tag">&lt;<span class="name">b</span>&gt;</span>Chrome<span class="tag">&lt;/<span class="name">b</span>&gt;</span>, <span class="tag">&lt;<span class="name">b</span>&gt;</span>Safari<span class="tag">&lt;/<span class="name">b</span>&gt;</span> or <span class="tag">&lt;<span class="name">b</span>&gt;</span>Firefox<span class="tag">&lt;/<span class="name">b</span>&gt;</span> browser.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">......这里写网页内容</div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"impress.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<h2 id="创建幻灯片"><a href="#创建幻灯片" class="headerlink" title="创建幻灯片"></a>创建幻灯片</h2><h3 id="创建第一个slide"><a href="#创建第一个slide" class="headerlink" title="创建第一个slide"></a>创建第一个slide</h3><p>每个幻灯片是一个div元素，其class名称叫做’step’。<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"step"</span>&gt;</span>  </div><div class="line">        My first slide  </div><div class="line">   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<h3 id="加入属性"><a href="#加入属性" class="headerlink" title="加入属性"></a>加入属性</h3><p>虽然是创建一个简单的幻灯片，但你开始向你的幻灯片添加数据属性时还是很有趣的。数据属性表示它不是活动幻灯片时你的幻灯片的属性，您可以使用下面的数据属性：<br>data-x = 幻灯片的x坐标<br>data-y = 幻灯片的y坐标<br>data-scale = 通过指定一个值来进行缩放，data-scale为5则将会在你幻灯片原始尺寸基础放大5倍<br>data-rotate = 通过一个数字度数来确定旋转你的幻灯片<br>data-rotate-x = 为3D用，这个数字度数是它应该相对x轴旋转多少度。（前倾/后仰）<br>data-rotate-y = 为3D用，这个数字度数是它应该相对y轴旋转多少度。 （左摆/右摆）<br>data-rotate-z = 为3D用，这个数字度数是它应该相对z轴旋转多少度。</p>
+<p>如：<br>第一个幻灯片将它自己的x和y数据属性设置为0，所以会出现在页面的中间。<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"step"</span> <span class="attr">data-x</span>=<span class="string">"0"</span> <span class="attr">data-y</span>=<span class="string">"0"</span>&gt;</span>  </div><div class="line">        This is my first slide  </div><div class="line">   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>第二个幻灯片的x值为500，但y值为0，这意味着当它活动的时候它将会出现在穿过x轴(向左滑动)500px的地方。<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"step"</span> <span class="attr">data-x</span>=<span class="string">"500"</span> <span class="attr">data-y</span>=<span class="string">"0"</span>&gt;</span>  </div><div class="line">	This is slide 2  </div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>下一个幻灯片将同第2个幻灯片同样的x位置开始，但其y位置为-400，这将会是从顶部400px处滑入。<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"step"</span> <span class="attr">data-x</span>=<span class="string">"500"</span> <span class="attr">data-y</span>=<span class="string">"-400"</span>&gt;</span>  </div><div class="line">        This is slide 3  </div><div class="line">   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>幻灯片4使用缩放值来显示一个幻灯片如何放大缩小。它的scale值为0.5，意味着它应该是一半的尺寸。当它变成活动的演示时将通过必需的倍数调节所有幻灯片的缩放尺寸。在这个示例中它的意思就是这个幻灯片应该正常显示（比例为1），它将需要被放大2倍 (0.5*2 = 1)，所有的其他幻灯片也将被放大至2倍而变成2倍大小。<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"step"</span> <span class="attr">data-x</span>=<span class="string">"500"</span> <span class="attr">data-y</span>=<span class="string">"-800"</span> <span class="attr">data-scale</span>=<span class="string">"0.5"</span>&gt;</span>  </div><div class="line">        This is slide 4  </div><div class="line">   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>旋转属性允许你旋转一个幻灯片到当前视图，幻灯片5被设置旋转90度。<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"step"</span> <span class="attr">data-x</span>=<span class="string">"0"</span> <span class="attr">data-y</span>=<span class="string">"-800"</span> <span class="attr">data-rotate</span>=<span class="string">"90"</span>&gt;</span>  </div><div class="line">     This is slide 5 and it rotates in.  </div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>x轴是横轴，意思是你可使事物倾斜(正值)或向后(负值)，y轴是竖轴，所以你可使事物向左摇摆(负值)或向右(正值)，z轴是纵轴，这将是旋转的东西向上（负值）和向下（正值）。</p>
+<h2 id="样例展示"><a href="#样例展示" class="headerlink" title="样例展示"></a>样例展示</h2><p><a href="source\html\dayuhaitang.html">大鱼海棠</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h2&gt;&lt;p&gt;如果你已经厌烦了使用PowerPoint制作PPT，那么impress.js是一个非常好的选择，用它做的PPT更加直观，效果也非常的不错。&lt;
+    
+    </summary>
+    
+      <category term="JS" scheme="http://spadesq.me/categories/JS/"/>
+    
+    
+      <category term="impress.js" scheme="http://spadesq.me/tags/impress-js/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo deploy出错的解决方法</title>
     <link href="http://spadesq.me/2016/08/18/solvetodeploy/"/>
     <id>http://spadesq.me/2016/08/18/solvetodeploy/</id>
     <published>2016-08-17T16:00:00.000Z</published>
-    <updated>2016-10-07T05:20:10.268Z</updated>
+    <updated>2016-10-07T05:38:18.447Z</updated>
     
     <content type="html"><![CDATA[<p><strong>配置完SSH,hexo deploy出错的解决方法</strong></p>
 <blockquote>
@@ -32,7 +66,7 @@
 <p><em>配置Deployment首先，你需要为自己配置身份信息，打开命令行，然后输入：</em><br><em>git config –global user.name “yourname”</em><br><em>git config –global user.email “youremail”</em></p>
 <blockquote>
 <h2 id="以上做完还不行"><a href="#以上做完还不行" class="headerlink" title="以上做完还不行"></a>以上做完还不行</h2></blockquote>
-<p>_删掉根目录下的文件夹：.deploy<em>git，重新deploy就可以了。</em></p>
+<p><em>删掉根目录下的文件夹:.deploy_git重新deploy就可以了。</em></p>
 ]]></content>
     
     <summary type="html">
