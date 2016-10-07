@@ -84,4 +84,119 @@
     
   </entry>
   
+  <entry>
+    <title>Markdown常用语法总结</title>
+    <link href="http://spadesq.me/2016/06/30/markdown/"/>
+    <id>http://spadesq.me/2016/06/30/markdown/</id>
+    <published>2016-06-29T16:00:00.000Z</published>
+    <updated>2016-10-07T11:44:18.595Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><pre><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+大标题
+=
+小标题
+-
+</code></pre><h2 id="粗体、斜体"><a href="#粗体、斜体" class="headerlink" title="粗体、斜体"></a>粗体、斜体</h2><pre><code>**粗体**
+__粗体__
+*斜体*
+_斜体_
+</code></pre><h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><pre><code>---
+***
+~~文字删除线~~
+</code></pre><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><pre><code>- 无序列表项目
+- 无序列表项目
+- 无序列表项目
+
+* 无序列表项目
+* 无序列表项目
+* 无序列表项目
+
+1. 有序列表项目
+2. 有序列表项目
+3. 有序列表项目
+
+- 外层列表项目
+ + 内层列表项目
+ + 内层列表项目
+ + 内层列表项目
+- 外层列表项目
+</code></pre><h2 id="添加超链接、图片"><a href="#添加超链接、图片" class="headerlink" title="添加超链接、图片"></a>添加超链接、图片</h2><pre><code>[text](链接地址)
+![text](链接地址)
+
+直接使用&lt;img&gt;标签，这样可以指定图片的大小尺寸
+
+[无链接的链接][null-link]
+[null-link]: chrome://not-a-link
+</code></pre><h2 id="添加视频"><a href="#添加视频" class="headerlink" title="添加视频"></a>添加视频</h2><pre><code>优酷或腾讯视频下方都会有个分享，里面有html代码，直接复制过来就可以了。
+</code></pre><h2 id="添加表格"><a href="#添加表格" class="headerlink" title="添加表格"></a>添加表格</h2><pre><code>| ABCD | EFGH | IJKL |
+| -----|:----:| ----:|
+| a    | b    | c    |
+| d    | e    |  f   |
+| g    | h    |   i  |
+
+ABCD | EFGH | IGKL
+-----|------|----
+a    | b    | c
+d    | e    | f
+g    | h    | i
+</code></pre><h2 id="添加代码"><a href="#添加代码" class="headerlink" title="添加代码"></a>添加代码</h2><pre><code>`字符`（简短文字添加代码框）
+
+`Tab`或四个空格（大段文字添加代码框，每行前添加）
+
+代码段：```html  （写代码）```
+</code></pre><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><pre><code>&gt; 引用的文字
+&gt; 引用的文字
+&gt; 引用的文字
+
+&gt; 引用的文字引用的文字引用的文字引用的文字引用的文字引用的文字引
+用的文字引用的文字引用的文字引用的文字引用的文字引用的文字引用
+的文字引用的文字引用的文字
+
+&gt; 引用的文字引用的文字引用的文字引用的文字引用的文字
+ &gt;&gt; 引言内的引言引言内的引言引言内的引言
+&gt; 引用的文字引用的文字引用的文字引用的文字引用的文字
+</code></pre><h2 id="单行长文字"><a href="#单行长文字" class="headerlink" title="单行长文字"></a>单行长文字</h2><pre><code>在需要以单行长文字显示的文字两段各加三个`~`,即`~~~`
+
+在需要以单行长文字显示的文字段落前加四个空格
+</code></pre><h2 id="创建链接"><a href="#创建链接" class="headerlink" title="创建链接"></a>创建链接</h2><pre><code>&lt;test@domain.com&gt;
+</code></pre><h2 id="转义字符"><a href="#转义字符" class="headerlink" title="转义字符"></a>转义字符</h2><pre><code>\\
+\`
+\*
+\_
+\{\}
+\[\]
+\(\)
+\#
+\+
+\-
+\.
+\!
+</code></pre><h2 id="小型文本"><a href="#小型文本" class="headerlink" title="小型文本"></a>小型文本</h2><pre><code>&lt;small&gt;文本内容&lt;/small&gt;
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+大标题
+=
+    
+    </summary>
+    
+      <category term="Markdown" scheme="http://spadesq.me/categories/Markdown/"/>
+    
+    
+      <category term="Markdown" scheme="http://spadesq.me/tags/Markdown/"/>
+    
+  </entry>
+  
 </feed>
