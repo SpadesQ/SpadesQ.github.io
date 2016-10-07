@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://spadesq.me/"/>
-  <updated>2016-10-06T16:20:38.559Z</updated>
+  <updated>2016-10-07T05:20:10.268Z</updated>
   <id>http://spadesq.me/</id>
   
   <author>
@@ -16,29 +16,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>我是谁？</title>
-    <link href="http://spadesq.me/2016/08/18/hello/"/>
-    <id>http://spadesq.me/2016/08/18/hello/</id>
+    <title>hexo deploy出错的解决方法</title>
+    <link href="http://spadesq.me/2016/08/18/solvetodeploy/"/>
+    <id>http://spadesq.me/2016/08/18/solvetodeploy/</id>
     <published>2016-08-17T16:00:00.000Z</published>
-    <updated>2016-10-06T16:20:38.559Z</updated>
+    <updated>2016-10-07T05:20:10.268Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="我是谁？"><a href="#我是谁？" class="headerlink" title="我是谁？"></a>我是谁？</h2><p>一个努力而又孤独的刺猬。</p>
-<h2 id="我为什么要建立这个博客？"><a href="#我为什么要建立这个博客？" class="headerlink" title="我为什么要建立这个博客？"></a>我为什么要建立这个博客？</h2><p>分享我学习前端的经验。</p>
-<h2 id="你能从网站得到什么？"><a href="#你能从网站得到什么？" class="headerlink" title="你能从网站得到什么？"></a>你能从网站得到什么？</h2><p>经验和资源。</p>
-<h2 id="我会放什么资源？"><a href="#我会放什么资源？" class="headerlink" title="我会放什么资源？"></a>我会放什么资源？</h2><p>程序源码之类吧。</p>
+    <content type="html"><![CDATA[<p><strong>配置完SSH,hexo deploy出错的解决方法</strong></p>
+<blockquote>
+<h2 id="ERROR-Deployer-not-found-git"><a href="#ERROR-Deployer-not-found-git" class="headerlink" title="ERROR Deployer not found: git"></a>ERROR Deployer not found: git</h2></blockquote>
+<p><em>执行npm install hexo-deployer-git –save</em></p>
+<blockquote>
+<h2 id="Error-fatal-Not-a-git-repository-or-any-of-the-parent-directories-git"><a href="#Error-fatal-Not-a-git-repository-or-any-of-the-parent-directories-git" class="headerlink" title="Error: fatal: Not a git repository (or any of the parent directories): .git"></a>Error: fatal: Not a git repository (or any of the parent directories): .git</h2><p>$ hexo d<br>INFO  Deploying: git<br>INFO  Clearing .deploy_git folder…<br>INFO  Copying files from public folder…<br>fatal: Not a git repository (or any of the parent directories): .git<br>FATAL Something’s wrong. Maybe you can find the solution here: <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">http://hexo.io/docs/troubleshooting.html</a><br>Error: fatal: Not a git repository (or any of the parent directories): .git<br>    at ChildProcess.<anonymous> (E:\web\Hexo\node_modules\hexo-util\lib\spawn.js:37:17)<br>    at emitTwo (events.js:106:13)<br>    at ChildProcess.emit (events.js:191:7)<br>    at ChildProcess.cp.emit (E:\web\Hexo\node_modules\cross-spawn\lib\enoent.js:40:29)<br>    at maybeClose (internal/child_process.js:850:16)<br>    at Socket.<anonymous> (internal/child_process.js:323:11)<br>    at emitOne (events.js:96:13)<br>    at Socket.emit (events.js:188:7)<br>    at Pipe._handle.close [as _onclose] (net.js:492:12)<br>FATAL fatal: Not a git repository (or any of the parent directories): .git<br>Error: fatal: Not a git repository (or any of the parent directories): .git<br>    at ChildProcess.<anonymous> (E:\web\Hexo\node_modules\hexo-util\lib\spawn.js:37:17)<br>    at emitTwo (events.js:106:13)<br>    at ChildProcess.emit (events.js:191:7)<br>    at ChildProcess.cp.emit (E:\web\Hexo\node_modules\cross-spawn\lib\enoent.js:40:29)<br>    at maybeClose (internal/child_process.js:850:16)<br>    at Socket.<anonymous> (internal/child_process.js:323:11)<br>    at emitOne (events.js:96:13)<br>    at Socket.emit (events.js:188:7)<br>    at Pipe._handle.close [as _onclose] (net.js:492:12)</anonymous></anonymous></anonymous></anonymous></p>
+</blockquote>
+<p><em>配置Deployment首先，你需要为自己配置身份信息，打开命令行，然后输入：</em><br><em>git config –global user.name “yourname”</em><br><em>git config –global user.email “youremail”</em></p>
+<blockquote>
+<h2 id="以上做完还不行"><a href="#以上做完还不行" class="headerlink" title="以上做完还不行"></a>以上做完还不行</h2></blockquote>
+<p>_删掉根目录下的文件夹：.deploy<em>git，重新deploy就可以了。</em></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;我是谁？&quot;&gt;&lt;a href=&quot;#我是谁？&quot; class=&quot;headerlink&quot; title=&quot;我是谁？&quot;&gt;&lt;/a&gt;我是谁？&lt;/h2&gt;&lt;p&gt;一个努力而又孤独的刺猬。&lt;/p&gt;
-&lt;h2 id=&quot;我为什么要建立这个博客？&quot;&gt;&lt;a href=&quot;#我为什么要建立这个博客？&quot;
+      &lt;p&gt;&lt;strong&gt;配置完SSH,hexo deploy出错的解决方法&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&quot;ERROR-Deployer-not-found-git&quot;&gt;&lt;a href=&quot;#ERROR-Deployer-not-found-git&quot;
     
     </summary>
     
-      <category term="介绍" scheme="http://spadesq.me/categories/%E4%BB%8B%E7%BB%8D/"/>
+      <category term="Hexo" scheme="http://spadesq.me/categories/Hexo/"/>
     
     
-      <category term="本人" scheme="http://spadesq.me/tags/%E6%9C%AC%E4%BA%BA/"/>
+      <category term="deploy" scheme="http://spadesq.me/tags/deploy/"/>
     
   </entry>
   
