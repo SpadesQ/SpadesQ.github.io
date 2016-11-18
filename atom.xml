@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://spadesq.me/"/>
-  <updated>2016-11-18T13:23:27.800Z</updated>
+  <updated>2016-11-18T13:25:33.439Z</updated>
   <id>http://spadesq.me/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AI五子棋游戏</title>
+    <link href="http://spadesq.me/2016/11/18/wuziqi/"/>
+    <id>http://spadesq.me/2016/11/18/wuziqi/</id>
+    <published>2016-11-17T16:00:00.000Z</published>
+    <updated>2016-11-18T13:25:33.439Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="source/index.html">五子棋游戏</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;source/index.html&quot;&gt;五子棋游戏&lt;/a&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="game" scheme="http://spadesq.me/categories/game/"/>
+    
+    
+      <category term="AI" scheme="http://spadesq.me/tags/AI/"/>
+    
+  </entry>
   
   <entry>
     <title>当你不喜欢这世界时怎么办？</title>
