@@ -626,14 +626,14 @@ body{
 .timeUl li div{
     height: 45%;
     width: 100%;
-    background-color: #444444;
+    background-color: #ffffff;
     filter:alpha(opacity=90);  
     -moz-opacity:0.9;  
     -khtml-opacity: 0.9;  
     opacity: 0.9;  
     text-align: center;
     color: #ffffff;
-    box-shadow: 10px 10px 5px #000000;
+    box-shadow: 10px 10px 5px #ffffff;
 }
 
 .timeUl li:nth-child(2n) div{
@@ -1315,7 +1315,7 @@ body{
     .timeUl li div{
         font-weight: lighter;
         height: auto;
-        box-shadow: 0.6rem 0.6rem 0.3rem  #000000;
+        box-shadow: 0.6rem 0.6rem 0.3rem  #ffffff;
         padding: 0.3rem 0;
     }
     
