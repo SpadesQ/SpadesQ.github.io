@@ -419,6 +419,7 @@ body{
     color: #ffffff;
     font-weight: lighter;
     text-align: center;
+	text-shadow:0rem .2rem .7rem purple,0rem -.2rem .7rem brown;
 }
 
 .box01_content .title{
@@ -625,15 +626,15 @@ body{
 
 .timeUl li div{
     height: 45%;
-    width: 100%;
+    width: 50%;
     background-color: #ffffff;
     filter:alpha(opacity=90);  
     -moz-opacity:0.9;  
     -khtml-opacity: 0.9;  
     opacity: 0.9;  
     text-align: center;
-    color: #ffffff;
-    box-shadow: 10px 10px 5px #ffffff;
+    color: #AA89BD;
+    box-shadow: 10px 10px 5px #E9C3DC;
 }
 
 .timeUl li:nth-child(2n) div{

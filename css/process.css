@@ -94,7 +94,7 @@
 
 .bar.green {
   background-color: green;
-   background-image: repeating-linear-gradient(-45deg, #cf4647, #cf4647 30px, #da6e6f 30px, #da6e6f 60px);
+  background-image: repeating-linear-gradient(-45deg, #cf4647, #cf4647 30px, #da6e6f 30px, #da6e6f 60px);
   background-size: 600px 100%;
   animation: barberpole 12s linear infinite;
   -webkit-animation: barberpole 12s linear infinite;
